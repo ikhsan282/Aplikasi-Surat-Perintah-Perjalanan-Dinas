@@ -8,3 +8,9 @@ C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\
 C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.exe
 C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.xml
 C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.pdb
+C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.FrEntriDataPenyelenggara.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.FrEntriDivisi.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.FrEntriDataGolongan.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.FrEntriDataJabatan.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.FrEntriDataPegawai.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\SPPDinas\SPPDinas\SPPDinas\obj\Debug\SPPDinas.FrEntriJenisPembiayaan.resources

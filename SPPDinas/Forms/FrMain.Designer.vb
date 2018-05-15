@@ -29,21 +29,21 @@ Partial Class FrMain
         Me.EntriDataPenyelenggaraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.EntriDataGolonganToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.EntriDataJabatanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.CetakLaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.EntriJenisPembiayaanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.EntriDivisiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.EntriBeritaAcaraUndanganKegiatanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.EntriRencanaLaporanPertanggungjawabanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakKwitansiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakSuratDinasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakSuratTugasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.CetakLaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakLapRekapRPKToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakLapSDinasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakLapBiayaDinasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakLapDaftarRiilToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.CetakLapBeritaAcaraKegiatanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -87,26 +87,6 @@ Partial Class FrMain
         Me.EntriDataJabatanToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.EntriDataJabatanToolStripMenuItem.Text = "Entri Data Jabatan"
         '
-        'TransaksiToolStripMenuItem
-        '
-        Me.TransaksiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EntriBeritaAcaraUndanganKegiatanToolStripMenuItem, Me.EntriRencanaLaporanPertanggungjawabanToolStripMenuItem, Me.CetakKwitansiToolStripMenuItem, Me.CetakSuratDinasToolStripMenuItem, Me.CetakSuratTugasToolStripMenuItem})
-        Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
-        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
-        Me.TransaksiToolStripMenuItem.Text = "Transaksi"
-        '
-        'CetakLaporanToolStripMenuItem
-        '
-        Me.CetakLaporanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CetakLapRekapRPKToolStripMenuItem, Me.CetakLapSDinasToolStripMenuItem, Me.CetakLapBiayaDinasToolStripMenuItem, Me.CetakLapDaftarRiilToolStripMenuItem, Me.CetakLapBeritaAcaraKegiatanToolStripMenuItem})
-        Me.CetakLaporanToolStripMenuItem.Name = "CetakLaporanToolStripMenuItem"
-        Me.CetakLaporanToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
-        Me.CetakLaporanToolStripMenuItem.Text = "Cetak Laporan"
-        '
-        'KeluarToolStripMenuItem
-        '
-        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
-        Me.KeluarToolStripMenuItem.Text = "Keluar"
-        '
         'EntriJenisPembiayaanToolStripMenuItem
         '
         Me.EntriJenisPembiayaanToolStripMenuItem.Name = "EntriJenisPembiayaanToolStripMenuItem"
@@ -118,6 +98,13 @@ Partial Class FrMain
         Me.EntriDivisiToolStripMenuItem.Name = "EntriDivisiToolStripMenuItem"
         Me.EntriDivisiToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.EntriDivisiToolStripMenuItem.Text = "Entri Divisi"
+        '
+        'TransaksiToolStripMenuItem
+        '
+        Me.TransaksiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EntriBeritaAcaraUndanganKegiatanToolStripMenuItem, Me.EntriRencanaLaporanPertanggungjawabanToolStripMenuItem, Me.CetakKwitansiToolStripMenuItem, Me.CetakSuratDinasToolStripMenuItem, Me.CetakSuratTugasToolStripMenuItem})
+        Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
+        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.TransaksiToolStripMenuItem.Text = "Transaksi"
         '
         'EntriBeritaAcaraUndanganKegiatanToolStripMenuItem
         '
@@ -149,6 +136,13 @@ Partial Class FrMain
         Me.CetakSuratTugasToolStripMenuItem.Size = New System.Drawing.Size(308, 22)
         Me.CetakSuratTugasToolStripMenuItem.Text = "Cetak Surat Tugas"
         '
+        'CetakLaporanToolStripMenuItem
+        '
+        Me.CetakLaporanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CetakLapRekapRPKToolStripMenuItem, Me.CetakLapSDinasToolStripMenuItem, Me.CetakLapBiayaDinasToolStripMenuItem, Me.CetakLapDaftarRiilToolStripMenuItem, Me.CetakLapBeritaAcaraKegiatanToolStripMenuItem})
+        Me.CetakLaporanToolStripMenuItem.Name = "CetakLaporanToolStripMenuItem"
+        Me.CetakLaporanToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
+        Me.CetakLaporanToolStripMenuItem.Text = "Cetak Laporan"
+        '
         'CetakLapRekapRPKToolStripMenuItem
         '
         Me.CetakLapRekapRPKToolStripMenuItem.Name = "CetakLapRekapRPKToolStripMenuItem"
@@ -179,6 +173,12 @@ Partial Class FrMain
         Me.CetakLapBeritaAcaraKegiatanToolStripMenuItem.Size = New System.Drawing.Size(244, 22)
         Me.CetakLapBeritaAcaraKegiatanToolStripMenuItem.Text = "Cetak Lap. Berita Acara Kegiatan"
         '
+        'KeluarToolStripMenuItem
+        '
+        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
+        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
+        Me.KeluarToolStripMenuItem.Text = "Keluar"
+        '
         'FrMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -189,10 +189,10 @@ Partial Class FrMain
         Me.Controls.Add(Me.MenuStrip1)
         Me.DoubleBuffered = True
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.MaximizeBox = False
         Me.Name = "FrMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SPPDinas"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)

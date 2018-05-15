@@ -73,6 +73,42 @@
       <DependentUpon>FrMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPenyelenggara.Designer.vb">
+      <DependentUpon>FrEntriDataPenyelenggara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPenyelenggara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDivisi.Designer.vb">
+      <DependentUpon>FrEntriDivisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDivisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataGolongan.Designer.vb">
+      <DependentUpon>FrEntriDataGolongan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataGolongan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataJabatan.Designer.vb">
+      <DependentUpon>FrEntriDataJabatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataJabatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPegawai.Designer.vb">
+      <DependentUpon>FrEntriDataPegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriJenisPembiayaan.Designer.vb">
+      <DependentUpon>FrEntriJenisPembiayaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriJenisPembiayaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -92,6 +128,24 @@
   <ItemGroup>
     <EmbeddedResource Include="Forms\FrMain.resx">
       <DependentUpon>FrMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataPenyelenggara.resx">
+      <DependentUpon>FrEntriDataPenyelenggara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDivisi.resx">
+      <DependentUpon>FrEntriDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataGolongan.resx">
+      <DependentUpon>FrEntriDataGolongan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataJabatan.resx">
+      <DependentUpon>FrEntriDataJabatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataPegawai.resx">
+      <DependentUpon>FrEntriDataPegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriJenisPembiayaan.resx">
+      <DependentUpon>FrEntriJenisPembiayaan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -114,7 +168,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Forms\Master\" />
     <Folder Include="Forms\Report\" />
     <Folder Include="Forms\Transaction\" />
   </ItemGroup>
